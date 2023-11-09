@@ -19,7 +19,3 @@ def countPaths(east, north):
     validPathValue = countValidPaths(east, north)
     validRootValue = countValidRoots(east, north)
     return validPathValue, validRootValue
-
-print("Valid paths: ", countPaths(2, 2))
-print("Valid paths: ", countPaths(0, 7))
-print("Valid paths: ", countPaths(0, 0))
