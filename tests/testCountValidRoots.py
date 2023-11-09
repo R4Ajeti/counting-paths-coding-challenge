@@ -1,4 +1,3 @@
-import pytest
 from core.main import countValidRoots
 
 class TestCountValidRoots:

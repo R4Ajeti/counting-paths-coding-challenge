@@ -1,0 +1,2 @@
+def confirmTestAreRunning():
+    assert True
