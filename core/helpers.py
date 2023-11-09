@@ -1,8 +1,7 @@
-def factorial(n):
-    if n == 0:
-        return 1
-    else:
-        return n * factorial(n-1)
-
+import math
 def combination(n, k):
-    return int(factorial(n) / (factorial(k) * factorial(n-k)))
+    if k > n - k:
+        k = n - k
+
+    combinationInt = math.factorial(n) // (math.factorial(k) * math.factorial(n - k))
+    return combinationInt
