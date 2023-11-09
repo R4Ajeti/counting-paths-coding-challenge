@@ -8,6 +8,9 @@
 - pytest
 - git
 
+## Build Status
+
+[![Build Status](https://github.com/R4Ajeti/counting-paths-coding-challenge/workflows/Build%20Status/badge.svg)](https://github.com/R4Ajeti/counting-paths-coding-challenge/actions)
 
 ## Getting Started
 
@@ -35,7 +38,6 @@ Feel free to check the [issues page](issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
 
 ## 📝 License
 
