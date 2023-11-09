@@ -10,7 +10,7 @@
 
 ## Build Status
 
-[![Build Status](https://github.com/R4Ajeti/counting-paths-coding-challenge/workflows/Build%20Status/badge.svg)](https://github.com/R4Ajeti/counting-paths-coding-challenge/actions)
+[![Build Status](https://github.com/R4Ajeti/counting-paths-coding-challenge/actions/workflows/counting-paths-unit-tests.yml/badge.svg)](https://github.com/R4Ajeti/counting-paths-coding-challenge/actions)
 
 ## Getting Started
 
