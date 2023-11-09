@@ -1,0 +1,27 @@
+#!/bin/bash
+
+# dos2unix activate .env
+while IFS= read -r line || [[ -n "$line" ]]; do
+    echo "START export $line END"
+    export "$line"
+    echo "Saved enviroment variable: $line"
+done < .env
+
+echo Activating environment
+
+# Check if the OS is Windows
+if [[ "$OSTYPE" == "msys" || "$OSTYPE" == "cygwin" ]]; then
+    echo "This machine is running Windows."
+    ENVIRONMENT_PATH="${ENVIRONMENT_PATH:-env-win/Scripts/activate}"
+elif [[ "$OSTYPE" == "linux-gnu" ]]; then
+    echo "This machine is running Linux."
+    ENVIRONMENT_PATH="${ENVIRONMENT_PATH:-env/bin/activate}"
+else
+    echo "This script may not work on this operating system."
+    ENVIRONMENT_PATH="${ENVIRONMENT_PATH:-env/bin/activate}"
+fi
+
+sourceCommand='source $(echo $ENVIRONMENT_PATH)'
+eval $sourceCommand
+
+echo Environment activated
