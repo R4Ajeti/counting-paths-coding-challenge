@@ -5,10 +5,10 @@ class TestCountValidRoots:
 
     # Returns a string of all possible permutations of "E" and "N" characters when given valid input values for freqOne and freqTwo
     def testCountValidRoots(self):
-        assert countValidRoots(2, 2) == "EN, NE, EE, NN"
+        assert countValidRoots(2, 2) == "EENN, ENEN, ENNE, NEEN, NENE, NNEE"
         assert countValidRoots(0, 7) == "NNNNNNN"
         assert countValidRoots(1, 3) == "ENNN, NENN, NNEN, NNNE"
-        assert countValidRoots(3, 1) == "EENN, ENEN, ENNE, NENE, NNEE, NEEE"
+        assert countValidRoots(3, 1) == "EEEN, EENE, ENEE, NEEE"
         assert countValidRoots(0, 4) == "NNNN"
         assert countValidRoots(4, 0) == "EEEE"
 

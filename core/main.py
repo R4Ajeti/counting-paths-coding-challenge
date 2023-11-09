@@ -12,6 +12,7 @@ def countValidRoots(freqOne, freqTwo):
     for perm in set(permutations(availableLetters)):
         word = ''.join(perm)
         sentenceList.append(word)
+    sentenceList.sort()
     sentence = ', '.join(sentenceList)
     return sentence
 
