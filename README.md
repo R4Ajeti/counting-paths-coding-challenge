@@ -14,7 +14,7 @@
 Clone repository to your local machine to get a copy running on your local machine.
 
 $ `git clone counting-paths-coding-challenge`
-&nbsp;&nbsp;&nbsp;`cd counting-paths-coding-challenge`
+`cd counting-paths-coding-challenge`
 
 Install dependencies (<small>hint: if you wana use a virtual environment, create one first</small>)
 $ `pip install -r requirements.txt`
