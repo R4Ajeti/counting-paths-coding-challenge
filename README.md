@@ -10,7 +10,7 @@
 
 ## Getting Started [![Build Status](https://github.com/R4Ajeti/counting-paths-coding-challenge/actions/workflows/counting-paths-unit-tests.yml/badge.svg)](https://github.com/R4Ajeti/counting-paths-coding-challenge/actions)
 
-**Running tests**
+**Running tests**</br>
 Clone repository to your local machine to get a copy running on your local machine.
 
 ```
@@ -18,10 +18,10 @@ git clone counting-paths-coding-challenge
 cd counting-paths-coding-challenge
 ```
 
-Install dependencies (<small>hint: if you wana use a virtual environment, create one first</small>)
+Install dependencies (<small>hint: if you wana use a virtual environment, create one first</small>)</br>
 $ `pip install -r requirements.txt`
 
-Run tests
+Run tests</br>
 $ `pytest tests/* -vv`
 
 **Running tests**
